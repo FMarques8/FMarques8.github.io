@@ -6,15 +6,16 @@
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 900;
-    --bg-color: #413F42;
-    --primary-color: #A50CFD;
-    --secondary-color: #8601D4;
+    --bg-color: #262626;
+    --primary-color: #6699ff;
+    --secondary-color: #6666ff;
+    --terciary-color: #333333;
     --primary-shadow: #ECEBEC;
-    --secondary-shadow: #DBB3F3;
+    --secondary-shadow: #ccdcff;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
-    --transition: 0.3s;
+    --transition: 0.3s
 }
 /* Variables end*/
 
@@ -44,6 +45,7 @@ a:hover {
 
 body {
     font-family: var(--font-family);
+    color : #ffffff;
     background-color: var(--bg-color);
 }
 
@@ -116,6 +118,7 @@ nav ul li {
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--secondary-shadow);
+    background-color: var(--terciary-color)
 }
 
 .bio h1 {
@@ -169,6 +172,7 @@ nav ul li {
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
     margin: 10px;
+    background-color: var(--terciary-color);
 }
 
 .projects {
@@ -217,6 +221,7 @@ nav ul li {
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
     margin: 10px;
+    background-color: var(--terciary-color);
 }
 
 .contact {
@@ -235,6 +240,7 @@ nav ul li {
     padding: 0.938rem;
     border-radius: 5px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
+    background-color: var(--terciary-color);
 }
 
 .input-field::placeholder {
