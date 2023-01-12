@@ -9,7 +9,8 @@
     --bg-color: #413F42;
     --primary-color: #A50CFD;
     --secondary-color: #8601D4;
-    --secondary-shadow: #413F42;
+    --primary-shadow: #ECEBEC;
+    --secondary-shadow: #DBB3F3;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
@@ -55,7 +56,7 @@ nav {
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
     background-color: var(--bg-color);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 5px var(--secondary-shadow);
 }
 
 /* Style nav bar */
