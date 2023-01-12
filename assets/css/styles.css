@@ -44,6 +44,7 @@ a:hover {
 
 body {
     font-family: var(--font-family);
+    background-color: var(--bg-color);
 }
 
 nav {
@@ -102,6 +103,7 @@ nav ul li {
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
+    background-color: var(--bg-color);
 }
 
 .hero img {
@@ -359,6 +361,7 @@ nav ul li {
 
     .contact-form-container {
         max-width: 23.75rem;
+        background-color: var(--bg-color);
     }
 }
 
