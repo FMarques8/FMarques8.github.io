@@ -9,7 +9,7 @@
     --bg-color: #262626;
     --primary-color: #6699ff;
     --secondary-color: #6666ff;
-    --terciary-color: #333333;
+    --tertiary-color: #333333;
     --primary-shadow: #ECEBEC;
     --secondary-shadow: #ccdcff;
     --bottom-margin: 0.5rem;
@@ -118,7 +118,7 @@ nav ul li {
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--secondary-shadow);
-    background-color: var(--terciary-color)
+    background-color: var(--tertiary-color)
 }
 
 .bio h1 {
@@ -172,7 +172,7 @@ nav ul li {
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
     margin: 10px;
-    background-color: var(--terciary-color);
+    background-color: var(--tertiary-color);
 }
 
 .projects {
@@ -221,7 +221,7 @@ nav ul li {
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
     margin: 10px;
-    background-color: var(--terciary-color);
+    background-color: var(--tertiary-color);
 }
 
 .contact {
@@ -240,12 +240,30 @@ nav ul li {
     padding: 0.938rem;
     border-radius: 5px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
-    background-color: var(--terciary-color);
+    background-color: var(--tertiary-color);
 }
 
-.input-field::placeholder {
-    padding: 0.5rem;
+.input-field {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: var(--tertiary-color);
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: var(--bold-font);
+    color: #ffffff
+}
+
+.input-field::placeholder{
     color: var(--primary-color);
+}
+
+label {
+    display: inline-block;
+    margin-right: .2em;
+    padding-top: 0.8em;
+    vertical-align: top;
 }
 
 .submit-btn {
@@ -257,7 +275,9 @@ nav ul li {
     border-radius: 5px;
     font-size: 1rem;
     font-weight: var(--bold-font);
+    color: #ffffff;
     transition: var(--transition);
+    color: #ffffff;
 }
 
 .submit-btn:hover {
